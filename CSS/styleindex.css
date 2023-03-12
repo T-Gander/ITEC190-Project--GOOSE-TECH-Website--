@@ -1,4 +1,12 @@
  
  /* Main Body Styles */
  
- 
+ body div#hero {
+    display: flex;
+    justify-content: center;
+}
+img#hero {
+    max-height: auto;
+    max-width: 100%;
+    box-sizing: content-box;
+}
