@@ -1,12 +1,79 @@
  
  /* Main Body Styles */
  
- body div#hero {
+div#hero {
     display: flex;
     justify-content: center;
+    background-image: url("../IMAGES/index-heroimage.png");
+    height: 600px;
+    width: 100%;
 }
-img#hero {
-    max-height: auto;
-    max-width: 100%;
-    box-sizing: content-box;
+
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+section#firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 5rem;
+}
+
+section#firstsection div {
+    display: inline-flex;
+    margin: 0rem 0rem;
+    align-items: center;
+    width: 750px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+section#firstsection div#applecertified {
+    margin: 0rem 0rem;
+    flex-wrap: wrap;
+    width: 750px;
+}
+
+section#firstsection div h2, section#firstsection div h3 {
+    margin: 15rem 0rem;
+    flex-wrap: wrap;
+}
+
+section#firstsection div img {
+    height: 500px;
+    border-radius: 3rem;
+}
+
+section#secondsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 5rem;
+}
+
+section#secondsection div {
+    display: inline-flex;
+    margin: 0rem 0rem;
+    align-items: center;
+    width: 750px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+section#secondsection div#custom-pc-building {
+    margin: 0rem 0rem;
+    flex-wrap: wrap;
+    width: 750px;
+}
+
+section#secondsection div h2, section#secondsection div h3 {
+    margin: 15rem 0rem;
+    flex-wrap: wrap;
+}
+
+section#secondsection div img {
+    height: 500px;
+    border-radius: 3rem;
 }
