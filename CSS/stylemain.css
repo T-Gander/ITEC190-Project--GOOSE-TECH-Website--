@@ -72,6 +72,20 @@ a:hover {
         height: 4rem;
     }
 
-    
+    footer {
+        background-color: hsla(0, 80%, 60%, 1);
+        font-size: 3rem;
+        margin-top: 5rem;
+        color: gray;
+        padding: 2rem;
+        text-align: center;
+    }
+    footer a {
+        font-size: 3rem;
+        color: gray;
+    }
+    footer a:hover {
+        color: white;
+    }
 
     

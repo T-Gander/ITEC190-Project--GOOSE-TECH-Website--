@@ -2,22 +2,30 @@
  /* Main Body Styles */
  
 div#hero {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     background-image: url("../IMAGES/index-heroimage.png");
-    height: 600px;
+    height: 100rem;
     width: 100%;
+    flex-direction: column;
 }
 
 h1 {
-    margin: auto;
+    margin: 8rem;
     text-align: center;
+}
+
+h3 {
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin: 8rem auto;
 }
 
 section#firstsection {
     display: flex;
     justify-content: space-around;
-    margin: 15rem 5rem;
+    margin: 10rem 0rem;
 }
 
 section#firstsection div {
@@ -37,19 +45,22 @@ section#firstsection div#applecertified {
 }
 
 section#firstsection div h2, section#firstsection div h3 {
-    margin: 15rem 0rem;
+    margin: 5rem 0rem;
     flex-wrap: wrap;
+    max-width: 90%;
+    max-height: 100%;
 }
 
 section#firstsection div img {
-    height: 500px;
+    max-width: 90%;
+    max-height: 100%;
     border-radius: 3rem;
 }
 
 section#secondsection {
     display: flex;
-    justify-content: space-around;
-    margin: 15rem 5rem;
+    justify-content: space-between;
+    margin: 10rem 0rem;
 }
 
 section#secondsection div {
@@ -69,13 +80,16 @@ section#secondsection div#custom-pc-building {
 }
 
 section#secondsection div h2, section#secondsection div h3 {
-    margin: 15rem 0rem;
+    margin: 5rem 0rem;
     flex-wrap: wrap;
+    max-width: 90%;
+    max-height: 100%;
 }
 
 section#secondsection div img {
-    height: 500px;
     border-radius: 3rem;
+    max-width: 90%;
+    max-height: 100%;
 }
 
 section#thirdsection div#customer-service {
@@ -88,6 +102,7 @@ section#thirdsection div {
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 section#thirdsection div#customer-service h2 {
@@ -103,7 +118,7 @@ section#thirdsection div#customer-service h2 {
 section#thirdsection div#customer-service div {
     display: flex;
     width: 80%;
-    height: 100px;
+    height: 0;
     justify-content: center;
 }
 
