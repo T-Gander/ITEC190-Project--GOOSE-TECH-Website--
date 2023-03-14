@@ -77,3 +77,45 @@ section#secondsection div img {
     height: 500px;
     border-radius: 3rem;
 }
+
+section#thirdsection div#customer-service {
+    display: flex;
+    width: 80%;
+}
+
+section#thirdsection div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section#thirdsection div#customer-service h2 {
+    display: flex;
+    position: absolute;
+    width: 80%;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    z-index: -1;
+    margin: 10rem auto;
+    justify-content: center;
+}
+section#thirdsection div#customer-service div {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    justify-content: center;
+}
+
+section#thirdsection div#customer-service div h3 {
+    margin-top: -40rem;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+}
+
+section#thirdsection div img {
+    display: flex;
+    border-radius: 3rem;
+    min-height: 500px;
+    z-index: -2;
+}
