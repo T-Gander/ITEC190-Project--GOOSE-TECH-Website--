@@ -1,5 +1,42 @@
  
  /* Need to add responsive design settings here */
- 
+h1 {
+    margin: 8rem;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin: 8rem auto;
+}
  /* Main Body Styles */
- 
+ div#hero {
+    display: inline-flex;
+    justify-content: center;
+    background-image: url("../IMAGES/Color-logo-with-background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 50rem;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+
+div#section1 {
+    display: inline-flex;
+    justify-content: center;
+    background-image: url("../IMAGES/rain-or-shine.jpg");
+    background-size: cover;
+    height: 100rem;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+div#section1 h1 {
+    text-align: left;
+}
+
