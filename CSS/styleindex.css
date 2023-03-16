@@ -54,12 +54,12 @@ section#firstsection div h2, section#firstsection div h3 {
 section#firstsection div img {
     max-width: 90%;
     max-height: 100%;
-    border-radius: 3rem;
+    border-radius: 0 12rem;
 }
 
 section#secondsection {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10rem 0rem;
 }
 
@@ -87,7 +87,7 @@ section#secondsection div h2, section#secondsection div h3 {
 }
 
 section#secondsection div img {
-    border-radius: 3rem;
+    border-radius: 12rem 0;
     max-width: 90%;
     max-height: 100%;
 }
@@ -130,7 +130,7 @@ section#thirdsection div#customer-service div h3 {
 
 section#thirdsection div img {
     display: flex;
-    border-radius: 3rem;
+    border-radius: 12rem;
     min-height: 500px;
     z-index: -2;
 }
