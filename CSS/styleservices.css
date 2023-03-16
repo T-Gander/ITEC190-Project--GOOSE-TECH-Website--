@@ -30,7 +30,7 @@ div#section1 {
     justify-content: center;
     background-image: url("../IMAGES/rain-or-shine.jpg");
     background-size: cover;
-    height: 100rem;
+    height: 80rem;
     width: 100%;
     flex-direction: column;
     margin-top: 3rem;
@@ -38,5 +38,15 @@ div#section1 {
 
 div#section1 h1 {
     text-align: left;
+    font-family: Verdana;
 }
-
+div#section2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+div#section2 h1 {
+    font-weight: 1000;
+    font-family: Verdana;
+    font-size: 8rem;
+}

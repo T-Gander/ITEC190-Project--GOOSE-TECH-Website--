@@ -13,6 +13,7 @@ div#hero {
 h1 {
     margin: 8rem;
     text-align: center;
+    font-weight: 1000;
 }
 
 h3 {
