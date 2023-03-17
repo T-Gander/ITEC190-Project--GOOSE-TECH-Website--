@@ -71,7 +71,7 @@ h1#section2header {
     padding: 0;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
     width:fit-content;
-    margin: 6rem auto;
+    margin: 12rem auto;
 }
 
 div.section2column {
@@ -87,12 +87,42 @@ div.section2column {
     border-top: 0;
     border-color: black;
     border-style: solid;
+    opacity: 0.85;
 }
 
 div.section2column h2 {
-    color: black;
+    color: white;
+    text-shadow: 2px 2px 48px rgba(0, 0, 0, 1), -2px -2px 48px rgba(0, 0, 0, 1), 2px -2px 48px rgba(0, 0, 0, 1), -2px 2px 48px rgba(0, 0, 0, 1);
 }
 
 div.section2column p {
     font-size: 4rem;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 1), -1px -1px 6px rgba(0, 0, 0, 1), 1px -1px 6px rgba(0, 0, 0, 1), -1px 1px 6px rgba(0, 0, 0, 1);
+}
+
+div.section2column#managed-it {
+    background-image: url("../IMAGES/managed-it.jpg");
+    background-size: cover;
+    background-position-y: 70%;
+}
+
+div.section2column#hardware-repair {
+    background-image: url("../IMAGES/hardware-repair.jpg");
+    background-size: cover;
+    background-position-y: 75%;
+}
+
+div.section2column#hardware-repair h2 {
+    color: hsla(0, 80%, 60%, 1);
+    text-shadow: 3px 3px 48px rgba(0, 0, 0, 1), -3px -3px 48px rgba(0, 0, 0, 1), 3px -3px 48px rgba(0, 0, 0, 1), -3px 3px 48px rgba(0, 0, 0, 1);
+}
+
+div.section2column#hardware-repair p {
+    color: white;
+}
+
+div.section2column#website-design {
+    background-image: url("../IMAGES/website-design.jpg");
+    background-size: cover;
+    background-position-y: 70%;
 }
