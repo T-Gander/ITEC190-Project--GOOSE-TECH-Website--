@@ -20,6 +20,10 @@ h3 {
     margin: 8rem auto;
     height: fit-content;
 }
+
+html{
+    background-color: rgb(255, 255, 255);
+}
  /* Main Body Styles */
  div#hero {
     display: inline-flex;
@@ -59,19 +63,21 @@ h1#section2header {
     font-weight: 1000;
     font-family: Verdana;
     font-size: 8rem;
-    color: hsla(0, 80%, 60%, 1);
-    border: 2px;
-    border-color: black;
+    color: black;
+    border: 0px;
+    border-bottom: 2px;
+    border-color: hsla(0, 80%, 60%, 1);
     border-style: solid;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    text-shadow: 1px 1px black;
+    padding: 0;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+    width:fit-content;
+    margin: 6rem auto;
 }
 
 div.section2column {
     display: flex;
     color: hsla(0, 80%, 60%, 1);
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
     text-align: center;
     flex-direction: column;
     justify-content: space-between;
@@ -81,6 +87,10 @@ div.section2column {
     border-top: 0;
     border-color: black;
     border-style: solid;
+}
+
+div.section2column h2 {
+    color: black;
 }
 
 div.section2column p {
