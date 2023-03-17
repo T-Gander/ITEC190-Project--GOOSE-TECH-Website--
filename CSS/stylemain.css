@@ -61,17 +61,17 @@ a:hover {
 
     h1 {
         font-size: 12rem;
-        height: 12rem;
+        height: fit-content;
     }
 
     h2 {
         font-size: 8rem;
-        height: 8rem;
+        height: fit-content;
     }
 
     h3 {
         font-size: 4rem;
-        height: 4rem;
+        height: fit-content;
     }
 
     footer {
