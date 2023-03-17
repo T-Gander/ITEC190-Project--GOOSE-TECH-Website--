@@ -3,6 +3,17 @@
 h1 {
     margin: 8rem;
     text-align: center;
+    height: fit-content;
+}
+
+h2 {
+    margin: 4rem;
+    height: fit-content;
+}
+
+p {
+    margin: 4rem;
+    height: fit-content;
 }
 
 h3 {
@@ -10,6 +21,7 @@ h3 {
     width: 80%;
     height: 20%;
     margin: 8rem auto;
+    height: fit-content;
 }
  /* Main Body Styles */
  div#hero {
@@ -34,19 +46,44 @@ div#section1 {
     width: 100%;
     flex-direction: column;
     margin-top: 3rem;
+    box-shadow: 0 0 1rem black;
 }
 
 div#section1 h1 {
     text-align: left;
-    font-family: Verdana;
+    text-shadow: 0 0 1rem black;
 }
 div#section2 {
     display: flex;
     justify-content: center;
     color: black;
 }
-div#section2 h1 {
+h1#section2header {
     font-weight: 1000;
     font-family: Verdana;
     font-size: 8rem;
+    color: black;
+    border: 2px;
+    border-color: hsla(0, 80%, 60%, 1);
+    border-style: solid;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+div.section2column {
+    display: flex;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 0;
+    border-top: 0;
+    border-color: hsla(0, 80%, 60%, 1);
+    border-style: solid;
+}
+
+div.section2column p {
+    font-size: 4rem;
 }
