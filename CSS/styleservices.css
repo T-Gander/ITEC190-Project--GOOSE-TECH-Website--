@@ -62,17 +62,19 @@ h1#section2header {
     font-weight: 1000;
     font-family: Verdana;
     font-size: 8rem;
-    color: black;
+    color: hsla(0, 80%, 60%, 1);
     border: 2px;
-    border-color: hsla(0, 80%, 60%, 1);
+    border-color: black;
     border-style: solid;
     padding-top: 4rem;
     padding-bottom: 4rem;
+    text-shadow: 1px 1px black;
 }
 
 div.section2column {
     display: flex;
-    color: black;
+    color: hsla(0, 80%, 60%, 1);
+    text-shadow: 1px 1px black;
     text-align: center;
     flex-direction: column;
     justify-content: space-between;
@@ -80,7 +82,7 @@ div.section2column {
     border-right: 1px;
     border-bottom: 0;
     border-top: 0;
-    border-color: hsla(0, 80%, 60%, 1);
+    border-color: black;
     border-style: solid;
 }
 
