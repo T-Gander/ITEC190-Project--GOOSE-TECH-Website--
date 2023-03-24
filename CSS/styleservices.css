@@ -126,3 +126,16 @@ div.section2column#website-design {
     background-size: cover;
     background-position-y: 70%;
 }
+
+div#section3 form#Appointment {
+    display: block;
+    font-size: 5rem;
+    color: hsla(0, 80%, 60%, 1);
+    
+}
+
+div#section3 form#Appointment label {
+    display: block;
+    font-size: 5rem;
+    color: black;
+}
