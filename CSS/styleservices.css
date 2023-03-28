@@ -165,3 +165,12 @@ textarea#custIssue {
 input#submit {
     margin-top: 2rem;
 }
+
+input#custEmail:focus:invalid, 
+input#custPhone:focus:invalid { 
+    background: rgb(255, 232, 233)}
+
+input#custEmail:focus:valid, 
+input#custPhone:focus:valid {
+    background: rgb(220, 255, 220);
+}
