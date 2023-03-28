@@ -22,7 +22,7 @@ h3 {
 }
 
 html{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(216, 221, 222);
 }
  /* Main Body Styles */
  div#hero {
@@ -55,6 +55,7 @@ div#section1 h1 {
     text-shadow: 0 0 1rem black;
 }
 div#section2 {
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     color: black;
@@ -93,7 +94,7 @@ div.section2column {
 
 div.section2column h2 {
     color: white;
-    text-shadow: 2px 2px 48px rgba(0, 0, 0, 1), -2px -2px 48px rgba(0, 0, 0, 1), 2px -2px 48px rgba(0, 0, 0, 1), -2px 2px 48px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1), -2px -2px 6px rgba(0, 0, 0, 1), 2px -2px 6px rgba(0, 0, 0, 1), -2px 2px 6px rgba(0, 0, 0, 1);
 }
 
 div.section2column p {
@@ -115,7 +116,7 @@ div.section2column#hardware-repair {
 
 div.section2column#hardware-repair h2 {
     color: hsla(0, 80%, 60%, 1);
-    text-shadow: 3px 3px 48px rgba(0, 0, 0, 1), -3px -3px 48px rgba(0, 0, 0, 1), 3px -3px 48px rgba(0, 0, 0, 1), -3px 3px 48px rgba(0, 0, 0, 1);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1), -3px -3px 6px rgba(0, 0, 0, 1), 3px -3px 6px rgba(0, 0, 0, 1), -3px 3px 6px rgba(0, 0, 0, 1);
 }
 
 div.section2column#hardware-repair p {
@@ -149,6 +150,7 @@ form#Appointment {
     border-style: solid;
     padding: 5rem;
     border-radius: 5rem;
+    background-color: whitesmoke;
 }
 
 form#Appointment label {

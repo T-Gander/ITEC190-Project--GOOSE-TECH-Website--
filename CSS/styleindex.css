@@ -36,12 +36,15 @@ section#firstsection div {
     justify-content: space-evenly;
     text-align: center;
     flex-direction: column;
+    background-color: rgb(216, 221, 222);
+    border-radius: 4rem;
 }
 
 section#firstsection div#applecertified {
     margin: 0rem 0rem;
     flex-wrap: wrap;
     width: 750px;
+    background-color: transparent;
 }
 
 section#firstsection div h2, section#firstsection div h3 {
@@ -71,12 +74,15 @@ section#secondsection div {
     justify-content: space-evenly;
     text-align: center;
     flex-direction: column;
+    background-color: rgb(216, 221, 222);
+    border-radius: 4rem;
 }
 
 section#secondsection div#custom-pc-building {
     margin: 0rem 0rem;
     flex-wrap: wrap;
     width: 750px;
+    background-color: transparent;
 }
 
 section#secondsection div h2, section#secondsection div h3 {
@@ -133,4 +139,8 @@ section#thirdsection div img {
     border-radius: 12rem;
     min-height: 500px;
     z-index: -2;
+}
+
+html{
+    background-color: whitesmoke;
 }
