@@ -53,7 +53,7 @@
   </div>
   
   <div id="section3">
-    <form id="Appointment" action="#" method="post">
+    <form id="Appointment" action="" method="get">      <!-- Used get to prevent page from erroring, would normally use post and send to a server somewhere-->
       <legend>Book an Appointment!</legend>
 
       <label for="custName">Your Name :</label>
@@ -66,7 +66,8 @@
       <input id="custPhone" name="phone" type="tel" placeholder="403-555-5555">
 
       <label for="custIssue">Please enter your problem below, and our technician will respond ASAP.</label>
-      <input id="custIssue" name="issue" type="textarea" placeholder="Your Problem...">
+      <textarea id="custIssue" name="issue" type="textarea" placeholder="Your Problem..." rows="5" ></textarea>
+      <input type="submit" id="submit">
     </form> 
   </div>
 

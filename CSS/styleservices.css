@@ -58,6 +58,7 @@ div#section2 {
     display: flex;
     justify-content: center;
     color: black;
+    z-index: -2;
 }
 h1#section2header {
     font-weight: 1000;
@@ -138,4 +139,29 @@ div#section3 form#Appointment label {
     display: block;
     font-size: 5rem;
     color: black;
+}
+
+form#Appointment {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-style: solid;
+    padding: 5rem;
+    border-radius: 5rem;
+}
+
+form#Appointment label {
+    margin: 2.5rem auto;
+}
+
+textarea#custIssue {
+    display: flex;
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+}
+
+input#submit {
+    margin-top: 2rem;
 }
