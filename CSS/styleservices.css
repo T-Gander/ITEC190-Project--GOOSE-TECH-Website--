@@ -55,7 +55,7 @@ div#section1 h1 {
     text-shadow: 0 0 1rem black;
 }
 div#section2 {
-    margin-top: 5rem;
+    margin-top: 0rem;
     display: flex;
     justify-content: center;
     color: black;
