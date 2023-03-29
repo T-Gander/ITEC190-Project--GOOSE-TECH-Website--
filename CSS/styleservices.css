@@ -1,8 +1,9 @@
  
  /* Need to add responsive design settings here */
 h1 {
-    margin: 8rem;
+    margin: 8rem auto;
     text-align: center;
+    width: fit-content;
 }
 
 h2 {
@@ -60,6 +61,7 @@ div#section2 {
     justify-content: center;
     color: black;
     z-index: -2;
+    
 }
 h1#section2header {
     font-weight: 1000;
