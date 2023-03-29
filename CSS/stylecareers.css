@@ -9,7 +9,7 @@ body {
 }
 
  h1 {
-    border-bottom: solid hsla(0, 80%, 60%, 1);;
+    border-bottom: solid hsla(0, 80%, 60%, 1);
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -22,10 +22,11 @@ body {
  }
 
  div#countdowntimer {
-    color: hsla(0, 80%, 60%, 1);;
+    color: hsla(0, 80%, 60%, 1);
     font-size: 8rem;
     text-align: center;
     margin-top: 2rem;
+    margin-bottom: 6rem;
  }
 
  .align {
