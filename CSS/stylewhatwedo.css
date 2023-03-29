@@ -16,6 +16,7 @@ div#section1 {
     height: fit-content;
     margin-top: -14%;
     filter: brightness(60%);
+    animation: fadeinleft 3s;
  }
 
  div#solderingdesc {
