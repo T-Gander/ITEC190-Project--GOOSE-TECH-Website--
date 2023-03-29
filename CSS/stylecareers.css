@@ -14,11 +14,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+    animation: fadeinbelow 3s;
  }
 
  div#countdown {
     font-size: 5rem;
     text-align: center;
+    animation: fadeinbelow 3s;
  }
 
  div#countdowntimer {
@@ -27,26 +29,43 @@ body {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 6rem;
+    animation: fadeinbelow 3s;
  }
 
  .align {
     margin-top: 5rem;
     font-size: 6rem;
+    animation: fadeinright 3s;
  }
 
 div.joblistings {
     display: inline-flex;
     justify-content: space-around;
+    animation: fadeinright 3s;
 }
 
 div.block {
     width: 45%;
+    animation: fadeinright 3s;
 }
 
  div.block p {
     margin: 0 auto;
     width: 70%;
     text-align: center;
+    animation: fadeinright 3s;
  }
 
- 
+ h3 {
+    border-bottom: solid hsla(0, 80%, 60%, 1);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    animation: fadeinright 3s;
+ }
+
+ h3 a {
+    color: hsla(0, 80%, 60%, 1);
+    font-size: 4rem;
+ }
