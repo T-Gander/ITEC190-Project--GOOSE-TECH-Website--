@@ -37,7 +37,7 @@ html{
     width: 100%;
     flex-direction: column;
     margin-top: 12rem;
-    animation: fadein 3s;
+    animation: fadeinbelow 3s;
 }
 
 div#section1 {
@@ -50,13 +50,13 @@ div#section1 {
     flex-direction: column;
     margin-top: 3rem;
     box-shadow: 0 0 1rem black;
-    animation: fadein 3s;
+    animation: fadeinbelow 3s;
 }
 
 div#section1 h1 {
     text-align: left;
     text-shadow: 0 0 1rem black;
-    animation: fadein 3s;
+    animation: fadeinbelow 3s;
 }
 div#section2 {
     margin-top: 0rem;
@@ -64,7 +64,7 @@ div#section2 {
     justify-content: center;
     color: black;
     z-index: -2;
-    animation: fadein 3s;
+    animation: fadeinbelow 3s;
 }
 h1#section2header {
     font-weight: 1000;
@@ -79,7 +79,7 @@ h1#section2header {
     text-shadow: 5px 5px 10px white, -5px 5px 10px white, 5px -5px 10px white, -5px -5px 10px white, 1px 1px 40px hsla(0, 80%, 60%, 1);
     width:fit-content;
     margin: 12rem auto;
-    animation: fadein 3s;
+    animation: fadeinbelow 3s;
 }
 
 div.section2column {

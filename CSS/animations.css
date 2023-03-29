@@ -1,4 +1,4 @@
-@keyframes fadein {
+@keyframes fadeinbelow {
     from {  opacity: 0;
         transform: translateY(20vh);}
     to   {  opacity: 1; 
@@ -6,7 +6,7 @@
 }
 
 /* Firefox < 16 */
-@-moz-keyframes fadein {
+@-moz-keyframes fadeinbelow {
     from {  opacity: 0;
         transform: translateY(20vh);}
     to   {  opacity: 1; 
@@ -14,7 +14,7 @@
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes fadein {
+@-webkit-keyframes fadeinbelow {
     from {  opacity: 0;
         transform: translateY(20vh);}
     to   {  opacity: 1; 
@@ -22,7 +22,7 @@
 }
 
 /* Internet Explorer */
-@-ms-keyframes fadein {
+@-ms-keyframes fadeinbelow {
     from {  opacity: 0;
         transform: translateY(20vh);}
     to   {  opacity: 1; 
@@ -30,9 +30,48 @@
 }
 
 /* Opera < 12.1 */
-@-o-keyframes fadein {
+@-o-keyframes fadeinbelow {
     from {  opacity: 0;
         transform: translateY(20vh);}
+    to   {  opacity: 1; 
+        transform: none;}
+}
+
+@keyframes fadeinright {
+    from {  opacity: 0;
+        transform: translateX(10vw);}
+    to   {  opacity: 1; 
+        transform: none;}
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeinright {
+    from {  opacity: 0;
+        transform: translateX(10vw);}
+    to   {  opacity: 1; 
+        transform: none;}
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeinright {
+    from {  opacity: 0;
+        transform: translateX(10vw);}
+    to   {  opacity: 1; 
+        transform: none;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeinright {
+    from {  opacity: 0;
+        transform: translateX(10vw);}
+    to   {  opacity: 1; 
+        transform: none;}
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeinright {
+    from {  opacity: 0;
+        transform: translateX(10vw);}
     to   {  opacity: 1; 
         transform: none;}
 }
