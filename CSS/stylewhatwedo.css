@@ -13,7 +13,7 @@ div#section1 {
  video {
     max-width: 100%;
     clip-path: inset(25% 0);
-    height: fit-content;
+    height: fit-content;                  /* May need to change this so that the page doesn't jump over all*/
     margin-top: -14%;
     filter: brightness(60%);
     animation: fadeinleft 3s;
