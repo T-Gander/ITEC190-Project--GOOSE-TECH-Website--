@@ -42,6 +42,7 @@ div.joblistings {
     display: inline-flex;
     justify-content: space-around;
     animation: fadeinright 3s;
+    
 }
 
 div.block {
@@ -68,4 +69,11 @@ div.block {
  h3 a {
     color: hsla(0, 80%, 60%, 1);
     font-size: 4rem;
+ }
+
+ div#centeralign {
+   display: flex;
+   margin-left:auto;
+   margin-right:auto;
+   width:100%;
  }
