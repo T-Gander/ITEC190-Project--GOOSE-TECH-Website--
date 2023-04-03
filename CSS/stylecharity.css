@@ -57,13 +57,13 @@ div.section1column p {
 div.section1column#africa {
     background-image: url("../IMAGES/africa.jpg");
     background-size: cover;
-    background-position-y: 70%;
+    background-position-y: 50%;
 }
 
 div.section1column#iraq {
     background-image: url("../IMAGES/iraq.jpg");
     background-size: cover;
-    background-position-y: 75%;
+    background-position-y: 25%;
 }
 
 div.section1column#iraq h2 {
