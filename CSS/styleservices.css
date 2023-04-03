@@ -50,13 +50,13 @@ div#section1 {
     flex-direction: column;
     margin-top: 3rem;
     box-shadow: 0 0 1rem black;
-    animation: fadeinbelow 3s;
+    animation: fadeinright 3s;
 }
 
 div#section1 h1 {
     text-align: left;
     text-shadow: 0 0 1rem black;
-    animation: fadeinbelow 3s;
+    animation: fadeinright 3s;
 }
 div#section2 {
     margin-top: 0rem;
