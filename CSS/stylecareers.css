@@ -9,7 +9,10 @@ body {
 }
 
  h1 {
-    border-bottom: solid hsla(0, 80%, 60%, 1);
+    text-decoration: underline;
+    text-decoration-color: hsla(0, 80%, 60%, 1);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 1.5rem;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
