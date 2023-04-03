@@ -3,5 +3,81 @@
  
  /* Main Body Styles */
  
+ div#section1 {
+    margin-top: 7.5rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+    z-index: -2;
+    animation: fadeinbelow 3s;
+}
+h1#section1header {
+    font-weight: 1000;
+    font-family: Verdana;
+    font-size: 8rem;
+    color: rgba(0, 0, 0, 0.85);
+    border: 0px;
+    border-bottom: 2px;
+    border-color: hsla(0, 80%, 60%, 1);
+    border-style: solid;
+    padding: 0;
+    text-shadow: 5px 5px 10px white, -5px 5px 10px white, 5px -5px 10px white, -5px -5px 10px white, 1px 1px 40px hsla(0, 80%, 60%, 1);
+    width:fit-content;
+    margin: 12rem auto;
+    animation: fadeinbelow 3s;
+}
 
+div.section1column {
+    display: flex;
+    color: hsla(0, 80%, 60%, 1);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 0;
+    border-top: 0;
+    border-color: black;
+    border-style: solid;
+    opacity: 0.85;
+    width: 33%;
+}
+
+div.section1column h2 {
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1), -2px -2px 6px rgba(0, 0, 0, 1), 2px -2px 6px rgba(0, 0, 0, 1), -2px 2px 6px rgba(0, 0, 0, 1);
+}
+
+div.section1column p {
+    font-size: 4rem;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 1), -1px -1px 6px rgba(0, 0, 0, 1), 1px -1px 6px rgba(0, 0, 0, 1), -1px 1px 6px rgba(0, 0, 0, 1);
+}
+
+div.section1column#africa {
+    background-image: url("../IMAGES/africa.jpg");
+    background-size: cover;
+    background-position-y: 70%;
+}
+
+div.section1column#iraq {
+    background-image: url("../IMAGES/iraq.jpg");
+    background-size: cover;
+    background-position-y: 75%;
+}
+
+div.section1column#iraq h2 {
+    color: hsla(0, 80%, 60%, 1);
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 1), -3px -3px 6px rgba(0, 0, 0, 1), 3px -3px 6px rgba(0, 0, 0, 1), -3px 3px 6px rgba(0, 0, 0, 1);
+}
+
+div.section1column#iraq p {
+    color: white;
+}
+
+div.section1column#brazil {
+    background-image: url("../IMAGES/brazil.jpg");
+    background-size: cover;
+    background-position-y: 70%;
+}
         
