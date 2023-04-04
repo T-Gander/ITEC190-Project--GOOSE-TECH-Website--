@@ -54,7 +54,7 @@ div#section1 {
 }
 
 div#section1 h1 {
-    text-align: left;
+    text-align: center;
     text-shadow: 0 0 1rem black;
     animation: fadeinright 3s;
 }
