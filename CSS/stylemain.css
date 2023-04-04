@@ -94,11 +94,11 @@ a:hover {
     @media only screen and (min-width: 1441px) {
         
         img#logo {
-            width: 90px;
-            height: 90px;
+            width: 80px;
+            height: 80px;
         }
         html {
-            font-size: 12px;
+            font-size: 10px;
         }
      }
 
@@ -131,11 +131,11 @@ a:hover {
 
      @media only screen and (min-width: 375px) and (max-width: 767px) {
         nav ul li > * {
-            font-size: 1.5rem;
+            font-size: 2rem;
         }
         img#logo {
-            width: 35px;
-            height: 35px;
+            width: 40px;
+            height: 40px;
         }
         body header nav div {
             width: 80%;
