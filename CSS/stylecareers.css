@@ -18,6 +18,7 @@ body {
     margin-right: auto;
     margin-top: 5%;
     animation: fadeinbelow 3s;
+    text-align: center;
  }
 
  div#countdown {
@@ -67,6 +68,7 @@ div.block {
     margin-right: auto;
     margin-top: 5%;
     animation: fadeinright 3s;
+    text-align: center;
  }
 
  h3 a {

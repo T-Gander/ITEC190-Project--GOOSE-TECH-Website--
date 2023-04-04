@@ -92,6 +92,7 @@ h1 {
     margin-right: auto;
     margin-top: 5%;
     animation: fadeinbelow 3s;
+    text-align: center;
  }
 
  body > p {
