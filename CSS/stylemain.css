@@ -91,20 +91,33 @@ a:hover {
         color: white;
     }
 
-    @media only screen and (min-width: 1441px) {
-        
-        img#logo {
-            width: 80px;
-            height: 80px;
-        }
+    @media only screen and (min-width: 1921px){
         html {
-            font-size: 10px;
+            font-size: 12px;
         }
+
+        img#logo {
+            width: 90px;
+            height: 90px;
+        }
+        
+     }
+
+    @media only screen and (min-width: 1441px) and (max-width: 1920px){
+        html {
+            font-size: 8px;
+        }
+
+        img#logo {
+            width: 63px;
+            height: 63px;
+        }
+        
      }
 
      @media only screen and (min-width: 1025px) and (max-width: 1440px) {
-        nav ul li > * {
-            font-size: 4rem;
+        html {
+            font-size: 7px;
         }
         img#logo {
             width: 55px;
@@ -116,8 +129,8 @@ a:hover {
      }
 
      @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        nav ul li > * {
-            font-size: 3rem;
+        html {
+            font-size: 6px
         }
         img#logo {
             width: 47px;
@@ -129,26 +142,26 @@ a:hover {
         
      }
 
-     @media only screen and (min-width: 375px) and (max-width: 767px) {
-        nav ul li > * {
-            font-size: 2rem;
+     @media only screen and (min-width: 420px) and (max-width: 767px) {
+        html {
+            font-size: 4px
         }
         img#logo {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
         }
         body header nav div {
             width: 80%;
         }
         
      }
-     @media only screen and (min-width: 0px) and (max-width: 374px) {
-        nav ul li > * {
-            font-size: 1.25rem;
+     @media only screen and (min-width: 0px) and (max-width: 419px) {
+        html {
+            font-size: 2px
         }
         img#logo {
-            width: 35px;
-            height: 35px;
+            width: 15px;
+            height: 15px;
         }
         body header nav div {
             width: 70%;
