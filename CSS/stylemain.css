@@ -100,7 +100,6 @@ a:hover {
             width: 90px;
             height: 90px;
         }
-        
      }
 
     @media only screen and (min-width: 1441px) and (max-width: 1920px){
@@ -112,7 +111,6 @@ a:hover {
             width: 63px;
             height: 63px;
         }
-        
      }
 
      @media only screen and (min-width: 1025px) and (max-width: 1440px) {
@@ -139,7 +137,6 @@ a:hover {
         body header nav div {
             width: 80%;
         }
-        
      }
 
      @media only screen and (min-width: 420px) and (max-width: 767px) {
@@ -153,7 +150,6 @@ a:hover {
         body header nav div {
             width: 80%;
         }
-        
      }
      @media only screen and (min-width: 0px) and (max-width: 419px) {
         html {
@@ -166,5 +162,4 @@ a:hover {
         body header nav div {
             width: 70%;
         }
-        
      }
