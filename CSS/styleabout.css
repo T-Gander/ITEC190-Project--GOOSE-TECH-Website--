@@ -30,14 +30,14 @@
  body::before {
     content: "";
     background-image: url("../IMAGES/goose.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     filter: opacity(0.7);
     position: absolute;
-      top: 0px;
+      top: -600px;
       right: 0px;
-      bottom: 0px;
+      bottom: -700px;
       left: 0px;
  }
 
