@@ -153,7 +153,7 @@ a:hover {
      }
      @media only screen and (min-width: 0px) and (max-width: 419px) {
         html {
-            font-size: 2px
+            font-size: 3px
         }
         img#logo {
             width: 15px;
