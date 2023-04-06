@@ -70,7 +70,7 @@ section#firstsection div#applecertified {
 }
 
 section#firstsection div h2, section#firstsection div h3 {
-    margin: 5rem 0rem;
+    margin: 0rem 0rem;
     flex-wrap: wrap;
     max-width: 90%;
     max-height: 100%;
@@ -109,7 +109,7 @@ section#secondsection div#custom-pc-building {
 }
 
 section#secondsection div h2, section#secondsection div h3 {
-    margin: 5rem 0rem;
+    margin: 0rem 0rem;
     flex-wrap: wrap;
     max-width: 90%;
     max-height: 100%;
