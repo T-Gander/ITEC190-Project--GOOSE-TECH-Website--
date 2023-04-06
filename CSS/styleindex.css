@@ -179,3 +179,18 @@ html{
         width: 1500px;
     }
 }
+
+@media only screen and (max-width: 870px) {
+    section#firstsection div h2 {
+        font-size: 5rem;
+    }
+    section#firstsection div h3 {
+        font-size: 3rem;
+    }
+    section#secondsection div h2 {
+        font-size: 5rem;
+    }
+    section#secondsection div h3 {
+        font-size: 3rem;
+    }
+}
