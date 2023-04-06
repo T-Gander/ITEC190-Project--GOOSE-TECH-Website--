@@ -52,7 +52,7 @@ section#firstsection {
 
 section#firstsection div {
     display: inline-flex;
-    margin: 0rem 0rem;
+    margin: 0rem 10rem;
     align-items: center;
     width: 750px;
     justify-content: space-evenly;
@@ -63,7 +63,7 @@ section#firstsection div {
 }
 
 section#firstsection div#applecertified {
-    margin: 0rem 0rem;
+    margin: 0rem 10rem;
     flex-wrap: wrap;
     width: 750px;
     background-color: transparent;
@@ -91,7 +91,7 @@ section#secondsection {
 
 section#secondsection div {
     display: inline-flex;
-    margin: 0rem 0rem;
+    margin: 0rem 10rem;
     align-items: center;
     width: 750px;
     justify-content: space-evenly;
@@ -102,7 +102,7 @@ section#secondsection div {
 }
 
 section#secondsection div#custom-pc-building {
-    margin: 0rem 0rem;
+    margin: 0rem 10rem;
     flex-wrap: wrap;
     width: 750px;
     background-color: transparent;
@@ -119,6 +119,8 @@ section#secondsection div img {
     border-radius: 12rem 0;
     max-width: 100%;
     max-height: 100%;
+    margin: 0 0rem;
+
 }
 
 section#thirdsection div#customer-service {
@@ -171,9 +173,9 @@ html{
 
 @media only screen and (min-width: 1921px) {
     section#firstsection div#applecertified, section#firstsection div {
-        width: 1000px;
+        max-width: 1000px;
     }
     section#secondsection div#custom-pc-building, section#secondsection div {
-        width: 1000px;
+        max-width: 1000px;
     }
 }
