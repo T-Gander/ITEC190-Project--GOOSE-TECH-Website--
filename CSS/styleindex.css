@@ -173,9 +173,9 @@ html{
 
 @media only screen and (min-width: 1921px) {
     section#firstsection div#applecertified, section#firstsection div {
-        max-width: 1000px;
+        width: 1500px;
     }
     section#secondsection div#custom-pc-building, section#secondsection div {
-        max-width: 1000px;
+        width: 1500px;
     }
 }
