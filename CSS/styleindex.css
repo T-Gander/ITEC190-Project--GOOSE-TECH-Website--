@@ -161,7 +161,6 @@ section#thirdsection div#customer-service div h3 {
 section#thirdsection div img {
     display: flex;
     border-radius: 12rem;
-    max-height: 500px;
     z-index: -2;
 }
 
