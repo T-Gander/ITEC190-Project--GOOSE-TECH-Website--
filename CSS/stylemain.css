@@ -148,18 +148,18 @@ a:hover {
             height: 30px;
         }
         body header nav div {
-            width: 80%;
+            width: 90%;
         }
      }
      @media only screen and (min-width: 0px) and (max-width: 419px) {
         html {
-            font-size: 2px
+            font-size: 3px
         }
         img#logo {
             width: 15px;
             height: 15px;
         }
         body header nav div {
-            width: 70%;
+            width: 80%;
         }
      }
