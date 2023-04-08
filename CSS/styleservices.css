@@ -50,13 +50,13 @@ div#section1 {
     flex-direction: column;
     margin-top: 3rem;
     box-shadow: 0 0 1rem black;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
 }
 
 div#section1 h1 {
     text-align: center;
     text-shadow: 0 0 1rem black;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
 }
 div#section2 {
     margin-top: 0rem;
@@ -101,6 +101,7 @@ div.section2column {
 div.section2column h2 {
     color: white;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 1), -2px -2px 6px rgba(0, 0, 0, 1), 2px -2px 6px rgba(0, 0, 0, 1), -2px 2px 6px rgba(0, 0, 0, 1);
+    font-size: 6rem;
 }
 
 div.section2column p {

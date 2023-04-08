@@ -55,7 +55,7 @@ div#section1 {
 div#section2 {
     display: inline-flex;
     justify-content: space-around;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
 }
 
  div#section2 img {
@@ -76,3 +76,13 @@ div#section2 {
     width: 20%;
     text-align: center;
  }
+
+ body > p {
+   color: black;
+   font-size: 3rem;
+   width: 80%;
+   margin: 8rem auto;
+   animation: fadeinleft 4.5s;
+   margin-bottom: 16rem;
+   filter: opacity(1);
+}

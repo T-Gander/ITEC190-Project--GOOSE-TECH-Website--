@@ -39,26 +39,26 @@ body {
  .align {
     margin-top: 5rem;
     font-size: 6rem;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
  }
 
 div.joblistings {
     display: inline-flex;
     justify-content: space-around;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
     
 }
 
 div.block {
     width: 45%;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
 }
 
  div.block p {
     margin: 0 auto;
     width: 70%;
     text-align: center;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
  }
 
  h3 {
@@ -67,7 +67,7 @@ div.block {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
     text-align: center;
  }
 

@@ -12,7 +12,7 @@ div#hero {
 }
 
 a#bookappointmentbutton{
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
 }
 
 div#hero a {
@@ -29,7 +29,7 @@ h1 {
     margin: 8rem;
     text-align: center;
     font-weight: 1000;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
     text-decoration: underline;
     text-decoration-color: hsla(0, 80%, 60%, 1);
     text-decoration-thickness: 2px;
@@ -40,7 +40,7 @@ h3 {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    animation: fadeinright 3s;
+    animation: fadeinleft 3s;
 }
 
 section#firstsection {
@@ -115,6 +115,30 @@ section#secondsection div h2, section#secondsection div h3 {
     max-height: 100%;
 }
 
+section#firstsection div h2 {
+    font-size: 5rem;
+}
+
+section#firstsection div h3 {
+    font-size: 3rem;
+}
+
+section#secondsection div h2 {
+    font-size: 5rem;
+}
+
+section#secondsection div h3 {
+    font-size: 3rem;
+}
+
+section#thirdsection div h2 {
+    font-size: 5rem;
+}
+
+section#thirdsection div h3 {
+    font-size: 3rem;
+}
+
 section#secondsection div img {
     border-radius: 12rem 0;
     max-width: 100%;
@@ -146,12 +170,14 @@ section#thirdsection div#customer-service h2 {
     z-index: -1;
     margin: 10rem auto;
     justify-content: center;
+    text-align: center;
 }
 section#thirdsection div#customer-service div {
     display: flex;
     width: 80%;
     height: 0;
     justify-content: center;
+    text-align: center;
 }
 
 section#thirdsection div#customer-service div h3 {
